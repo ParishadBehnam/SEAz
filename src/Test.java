@@ -3,6 +3,24 @@ class Test
     public static void main(String[] args)
     {
         testSum();
+	testDiv();
+    }
+
+    private static void testDiv()
+    {
+        int a = 60;
+        int b = 6;
+        int expected = 10;
+        BasicMath bm = new BasicMath();
+        int result = bm.div(a, b);
+        if (result == expected)
+        {
+            System.out.println("Div: OK");
+        }
+        else
+        {
+            System.out.println("Div: Failed, expected = " + expected + ", result = " + result);
+        }
     }
 
     private static void testSum()
