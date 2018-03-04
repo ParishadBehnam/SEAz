@@ -6,7 +6,9 @@ class BasicMath
         return a + b;
     }
 
-    // TODO: subtract
+   public int mul(int a , int b) { return  a * b;} 
+
+ // TODO: subtract
 	// TODO: multiply
 	// TODO: divide
 }
